@@ -1,0 +1,27 @@
+body{
+    background-color: red;
+}
+
+.headp{
+    color: red;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg-header{
+    width: 2000px;
+}
+
+#logo{
+    position: absolute;
+    left: 20px;
+}
+
+.signin{
+    position: absolute;
+    right: 0px;
+}

@@ -1,0 +1,474 @@
+ /* header */
+ body{
+    overflow-x: hidden;
+ }
+ div{
+    box-sizing: border-box;
+ }
+
+ body{
+    margin: 0;
+    padding: 0;
+ }
+
+ ::before, ::after{
+    margin: 0;
+    padding: 0;
+ }
+ .navbar{  
+    display: flex;
+ }
+
+ .headp{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+ }
+
+ header{
+    width: 100vw;
+    height: 599px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.head1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 0;
+    font-weight: 650;
+    color: white;
+ }
+
+#bg-header{
+    filter: brightness(30%);
+    object-fit: cover;
+    z-index: -1;
+    opacity: 170%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 636px;
+    width: 100%;
+}
+
+ .signin{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: red;
+    border-radius: 2px;
+    height: 2rem;
+    width: 4.5rem;
+    font-size: 1rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 412px;
+    top: 20px;
+}
+
+nav select{
+    width: 6.5rem;
+    height: 2rem;
+    position: absolute;
+    right: 503px;
+    top: 20px;
+    background-color: #222222;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    opacity: 95%;
+}
+
+
+#logo{
+    position: relative;
+    left: 378px;
+    width: 9.25rem;
+    top: 18px;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    color: white;
+    position: relative;
+    top: 170px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+}
+
+.headp{
+    align-self: center;
+    margin: 10px 0px;
+}
+
+header section input{
+    width: 300px;
+    background-color: #1c1b1b;
+    opacity: 61%;
+    border-radius: 4px;
+    height: 40px;
+    border: 0.1px solid white;
+    padding: 4px 15px;
+    margin: 0px 14px;
+    color: white;
+}
+
+header section button{
+    width: 189px;
+    background-color: red;
+    font-size: 1.4rem;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+header section button:hover{
+    background-color: rgb(214, 8, 8);
+}
+
+.line input::placeholder{
+    color: white;
+    font-size: 17px;
+}
+
+.line input{
+    font-size: 22px;
+}
+
+.divider{
+    height: 0.5rem;
+    width: 100%;
+    background-color: rgb(35,35,35);
+}
+.divider1{
+    position: absolute;
+    left: 0;
+    top: 636px;
+}
+
+/* mid content */
+
+.enjoy{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    /* position: relative; */
+   /* top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0; */
+    z-index: -2;
+    margin: 0;
+    padding: 0;
+}
+
+.enjoy .images{
+    position: relative;
+    left: 987px;
+    width: 587px;
+    top: -140px;
+    z-index: 1;
+
+}
+
+.enjoy .images img{
+    width: 587px;
+    }
+
+.enjoy .text1{
+    width: 600px;
+    position: relative;
+    top: 190px;
+    left: 336px;
+}
+
+.enjoy .text1 .headp{
+    text-align: center;
+}
+
+.enjoy .text1 .head1{
+    text-align: center;
+}
+
+.enjoy .video{
+    position: relative;
+    left: 1065px;
+    top: -492px;
+}
+
+.enjoy .video video{
+    width: 426px;
+    /* position: relative;
+    left: 1036px;
+    top: 94px; */
+    z-index: -1;
+}
+
+
+/* divider  */
+
+/* download */
+.download{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.text2{
+    width: 597px;
+    border: 2px solid black;
+    position: relative;
+    left: 948px;
+    top: 100px;
+    margin: 0;
+}
+
+.text2 headp{width: 400px;
+}
+
+
+.download .image{
+    position: relative;
+    bottom: 231px;
+    left: 385px;
+}
+
+.download .image img{
+    width: 557px;
+}
+
+
+body,div{
+    margin: 0;
+    padding: 0;
+}
+
+/* divider  */
+
+/* watch  */
+
+.watch{
+    height: 500px;
+    background-color: black;
+    width: 100%;
+    z-index: -2;
+}
+
+.watch .text3{
+    border: 2px solid  black;
+    width: 600px;
+    position: relative;
+    left: 435px;
+    top: 140px;
+}
+
+.watch .image{
+    position: relative;
+    left: 985px;
+    bottom: 125px;
+    z-index: 1;
+}
+
+.watch .image img{
+    width: 540px;
+}
+
+.watch .video{
+    position: relative;
+    bottom: 598px;
+    z-index: 0;
+}
+
+.watch .video video{
+    width: 340px;
+    position: relative;
+    left: 1086px;
+    top: 94px;
+    z-index: -1;
+}
+
+/* divider  */
+
+/* create profile */
+
+.create{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+.create .text4{
+    border: 2px solid black;
+    width: 550px;
+    position: relative;
+    left: 940px;
+    top: 120px;
+}
+
+.create .image{
+    position: relative;
+    left: 336px;
+    bottom: 188px;
+}
+
+.create .image img{
+    width: 580px;
+}
+
+
+/* header::before{
+    position: absolute;
+    content: "";
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/4fb4af6e-d0ca-4c7f-b004-b34226727e55/IN-en-20230529-popsignuptwoweeks-perspective_alpha_website_small.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(30%);
+} */
+
+.questions{
+    background-color: black;
+    border: 2px solid black;
+    height: 1000px;
+}
+
+.questions .container{
+    /* border: 2px solid green; */
+    width: 1100px;
+    position: relative;
+    left: 400px;
+    top: 40px;
+}
+
+
+ details{
+    color: white;
+    border: 2px solid #100e0e;
+    margin: 15px 15px;
+    padding: 15px 15px;
+    font-size: 28px;
+    font-weight: 550;
+    background-color: #363232;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+details:hover{
+    background-color: grey;
+    
+}
+
+summary{
+    border-bottom: 2px solid grey;
+}
+
+
+.questions .heading {
+    text-align: center;
+    position: relative;
+    top: 9px;
+}
+
+
+.quesl input{
+    width: 300px;
+    background-color: #1c1b1b;
+    opacity: 61%;
+    border-radius: 4px;
+    height: 40px;
+    border: 0.1px solid white;
+    padding: 4px 15px;
+    margin: 0px 14px;
+    color: white;
+}
+
+.quesl button{
+    width: 189px;
+    background-color: red;
+    font-size: 1.4rem;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.quesl{
+    position: relative;
+    top: 73px;
+}
+
+
+/* footer  */
+
+footer{
+    background-color: black;
+    border: 2px solid black;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul a{
+    color: rgb(184, 179, 179);
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 40px;
+    font-size: 14px;
+    margin-right: 80px;
+}
+
+.footup{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 70%;
+    position: relative;
+    left: 300px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+footer select{
+    width: 6.5rem;
+    height: 2rem;
+    background-color: #222222;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    opacity: 95%;
+    position: relative;
+    left: 375px;
+    margin-bottom: 200px;
+}
+
+.foot{
+    color: rgb(184, 179, 179);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 376px;
+    bottom: 190px;
+}
